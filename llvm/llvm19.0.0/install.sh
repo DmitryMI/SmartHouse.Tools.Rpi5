@@ -1,7 +1,7 @@
 #!/bin/bash
 
-cat llvm19.0.0.tar.gz.parta* > llvm19.0.0.tar.gz
-tar -xzf llvm19.0.0.tar.gz
+cat llvm.tar.gz.parta* > llvm.tar.gz
+tar -xzf llvm.tar.gz
 
 mkdir test
-cp -r llvm19.0.0 test
+cp -r llvm test
